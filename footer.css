@@ -1,0 +1,12 @@
+/*Footer*/
+.footer{
+    display: block;
+    text-align: center;
+    background-color: var(--color-light);
+    padding: 1.5rem;
+    color: #f0f0f0;
+}
+.footer-privacy{
+    color: var(--main-color);
+    padding: 0.2rem;
+}

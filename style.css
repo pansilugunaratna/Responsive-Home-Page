@@ -1,0 +1,136 @@
+/* rem is font size of a value compared to the computed value of the root element*/
+:root {
+    --main-color: #1B3B56;
+    --color-dark: #1D2231;
+    --text-grey: #8390A2;
+    --color-light: #1BA679;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+/ box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Calibri, serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.main-content {
+    transition: 300ms;
+    margin-left: 200px;
+}
+
+main {
+    margin-top: 3rem;
+    padding: 10rem 1.5rem;
+    background: #f0f0f0;
+    min-height: calc(100vh - 90px);
+}
+
+.about {
+    padding: 2rem 1.5rem;
+    margin: 0.1rem;
+    background: #ffffff;
+    border-radius: 0.2rem;
+    min-height: calc(40vh - 90px);
+    color: rgba(0, 0, 0, 0.99);
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    margin-right: 1rem;
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.single-card {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 3rem;
+    background: #ffffff;
+    padding: 3rem 1rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-color: rgba(27, 166, 121, 0.45);
+}
+
+.leaderboard-update {
+    margin-top: 3.5rem;
+    background: white;
+    border-radius: 5px;
+}
+
+.leaderboard-update-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.leaderboard-update-header, .leaderboard-update-body {
+    padding: 1rem;
+}
+
+#rank, #points {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-content {
+        margin-left: 85px;
+    }
+
+    .main-content header {
+        width: calc(100% - 85px);
+        left: 85px;
+    }
+
+    .single-card {
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .cards {
+        grid-template-columns: 100%;
+    }
+}

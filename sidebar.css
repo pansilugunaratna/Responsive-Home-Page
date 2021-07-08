@@ -1,0 +1,79 @@
+.sidebar{
+    width: 200px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background: var(--main-color);
+    z-index: 100;
+    transition: width 300ms;
+    overflow-y: auto;
+}
+/*ALec with icon*/
+.sidebar-name{
+    padding: 1rem;
+    color: #ffffff;
+}
+/*icon before ALec*/
+.sidebar-name span{
+    display: inline-block;
+    padding-right: 1rem;
+}
+.sidebar-menu{
+    overflow-y: auto;
+}
+.sidebar-menu span{
+    display: inline;
+    width: 100%;
+    margin-left: 1rem;
+}
+.sub-menu-list{
+    padding-left: 1.5rem;
+}
+
+.sidebar-menu a{
+    display: block;
+    color: #ffffff;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* Active selection */
+.sidebar-menu a.active{
+    background: white;
+    color: var(--main-color);
+    border-radius: 0px;
+}
+@media only screen and (max-width: 800px) {
+    .sidebar{
+        width: 85px;
+    }
+    .sidebar:hover{
+        width: 200px;
+        z-index: 200;
+    }
+    .sidebar:hover .sidebar-name{
+        padding-left: 1rem;
+        text-align: left;
+    }
+    .sidebar:hover li a{
+        padding-left: 0rem;
+    }
+    .sidebar .sidebar-name h1 span:last-child,
+    .sidebar li a span:last-child,
+    .sidebar li li a span:last-child{
+        display: none;
+    }
+    .sidebar:hover .sidebar-name h1 span:last-child,
+    .sidebar:hover li a span:last-child,
+    .sidebar:hover li li a span:last-child{
+        display: inline;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #nav-toggle + .sidebar{
+        left: 0;
+        z-index: 100;
+    }
+}
+
