@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
     <title>Home</title>
-    <link rel="stylesheet"
-          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Header.css">
     <link rel="stylesheet" href="Sidebar.css">
@@ -22,7 +21,7 @@
     <main>
         <div class="about">
             <img class="logo-img" src="ALec.png" alt="ALec logo">
-            <h4> ALec - Interactive Teaching and Learning Module</h4>
+            <h4> ALec - Interactive Teaching and Learning Module </h4>
         </div>
 
         <div class="cards">
