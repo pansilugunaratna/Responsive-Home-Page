@@ -20,7 +20,7 @@
     <?php include 'header.php' ?>
     <main>
         <div class="about">
-            <img class="logo-img" src="ALec.png" alt="ALec logo">
+<!--            <img class="logo-img" src="ALec.png" alt="ALec logo">-->
             <h4> ALec - Interactive Teaching and Learning Module </h4>
         </div>
 

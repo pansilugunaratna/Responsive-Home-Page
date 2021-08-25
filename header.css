@@ -17,6 +17,10 @@ header{
     margin: auto;
     font-size: 2rem;
 }
+img{
+    width: 600px;
+    height: 600px;
+}
 
 #sms{
     padding: 0.5rem;

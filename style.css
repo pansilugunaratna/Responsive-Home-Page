@@ -41,7 +41,7 @@ td {
 
 main {
     margin-top: 3rem;
-    padding: 10rem 1.5rem;
+    padding: 5rem 1.5rem; /*changed*/
     background: #f0f0f0;
     min-height: calc(100vh - 90px);
 }

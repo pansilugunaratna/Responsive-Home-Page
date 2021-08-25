@@ -1,5 +1,9 @@
 <header>
-    <div><h1 class="header-name"> Interactive Teaching and Learning Module</h1></div>
+<!--    Changed name-->
+    <div>
+        <img class="logo-img" src="ALec01.png" alt="ALec logo">
+<!--        <h1 class="header-name"> ALec </h1>-->
+    </div>
     <div class="user-wrapper">
         <span id="sms" class="las la-sms"></span>
         <span id="user-name">Pansilu Gunaratna</span>
@@ -14,3 +18,5 @@
         </div>
     </div>
 </header>
+
+
